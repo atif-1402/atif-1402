@@ -22,7 +22,7 @@
   <img src="https://img.shields.io/badge/RAM-4GB-%230071C5.svg?&style=for-the-badge&logoColor=white" />
 </p>
 
-<h3>Technologies I Use for Themes</h3>
+<h3>Tools i use for theming</h3>
 <p align="left">
   <img alt="CSS" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
   <img alt="JSON" src="https://img.shields.io/badge/JSON-5E5C5C?style=for-the-badge&logo=json&logoColor=white" />
