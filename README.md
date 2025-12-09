@@ -8,7 +8,7 @@
 - Passionate about creating **custom Omarchy themes** and experimenting with new design concepts.  
 - I am New in Linux and Omarchy helped a lot making ricing and configuring easier  
 - Running Omarchy (Arch Linux with Hyprland), primarily designing themes with Aether.  
-- Editors I love: VS Code for theme development.  
+- Use VS Code for theming.  
 - Always seeking inspiration to push my work to the next level.  
 </br>
 
