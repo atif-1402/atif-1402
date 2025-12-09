@@ -1,6 +1,6 @@
 <h1 align='left'>
   Hey there 👋 I'm Atif 🖌️
-</h1>
+</h1> 
 <h3 align='left'>
   Creating themes, exploring design ideas, and ricing.
 </h3>
