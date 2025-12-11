@@ -32,10 +32,21 @@
 
 ## 🔗 Connect with Me
 <p align="left">
+
   <a href="https://www.reddit.com/user/Desperate_Lion5740/">
-    <img alt="Reddit" src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white"/>
+    <img height="28" src="https://img.shields.io/badge/Reddit-1a1a1a?style=for-the-badge&logo=reddit&logoColor=ff4500&labelColor=1a1a1a" />
   </a>
+
+  <a href="https://discord.com/users/1432491302875828246">
+    <img height="28" src="https://img.shields.io/badge/Discord-1a1a1a?style=for-the-badge&logo=discord&logoColor=5865F2&labelColor=1a1a1a" />
+  </a>
+
+  <a href="https://atif-1402.github.io/Portfolio/">
+    <img height="28" src="https://img.shields.io/badge/Portfolio-1a1a1a?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=1a1a1a" />
+  </a>
+
 </p>
+
 
 ## 📊 GitHub Stats
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=atif-1402&label=Visitors&countColor=%23263759)
