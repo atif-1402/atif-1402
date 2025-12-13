@@ -14,7 +14,8 @@
 
 ⭐ Projects:  
 - [Theme Collections](https://github.com/atif-1402?tab=repositories)  
-
+- [Waybar Collections](https://github.com/atif-1402/minimal-waybar-omarchy)
+  
 <p align='left'>
   💻 My freaky setup<br/><br/>
   <img src="https://img.shields.io/badge/Linux-Omarchy-%230078D6.svg?&style=for-the-badge&logo=linux&logoColor=000000" />
