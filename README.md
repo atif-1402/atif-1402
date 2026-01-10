@@ -25,10 +25,6 @@ My Work:
     <img height="28" src="https://img.shields.io/badge/Discord-1a1a1a?style=for-the-badge&logo=discord&logoColor=5865F2&labelColor=1a1a1a" />
   </a>
 
-  <a href="https://atif-1402.github.io/Portfolio/">
-    <img height="28" src="https://img.shields.io/badge/Portfolio-1a1a1a?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=1a1a1a" />
-  </a>
-
   <a href="https://buymeacoffee.com/atif.1402?status=1">
     <img height="28" src="https://img.shields.io/badge/Buy_Me_a_Coffee-1a1a1a?style=for-the-badge&logo=buymeacoffee&logoColor=ffdd00&labelColor=1a1a1a" />
   </a>
