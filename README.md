@@ -29,6 +29,10 @@ My Work:
     <img height="28" src="https://img.shields.io/badge/Buy_Me_a_Coffee-1a1a1a?style=for-the-badge&logo=buymeacoffee&logoColor=ffdd00&labelColor=1a1a1a" />
   </a>
 
+  <a href="https://atif-1402.github.io/">
+    <img height="28" src="https://img.shields.io/badge/Website-1a1a1a?style=for-the-badge&logo=google-chrome&logoColor=4fc3f7&labelColor=1a1a1a" />
+  </a>
+
 
 </p>
 
