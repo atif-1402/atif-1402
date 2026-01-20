@@ -4,12 +4,14 @@
 </br>
 
 My Work:  
-- [Theme Collections](https://github.com/atif-1402?tab=repositories)  
+- [Omarchy Themes](https://github.com/atif-1402?tab=repositories) <i>(outdated)</i>  
 - [Waybar Collections](https://github.com/atif-1402/minimal-waybar-omarchy)
+- [Dotfiles](https://atif-1402.github.io/dots)  <i>(no more updated)</i>
+- [TUI/CLI Screen Recorder](https://github.com/atif-1402/tui-screen-recorder)
   
 <p align='left'>
   💻 My freaky setup<br/><br/>
-  <img src="https://img.shields.io/badge/Linux-Omarchy-%230078D6.svg?&style=for-the-badge&logo=linux&logoColor=000000" />
+  <img src="https://img.shields.io/badge/ArchLinux-Hyprland-%230078D6.svg?&style=for-the-badge&logo=linux&logoColor=000000" />
   <img src="https://img.shields.io/badge/CPU-Intel%20i3%203rd%20Gen-%230071C5.svg?&style=for-the-badge&logo=intel&logoColor=white" />
   <img src="https://img.shields.io/badge/RAM-4GB-%230071C5.svg?&style=for-the-badge&logoColor=white" />
 </p>
