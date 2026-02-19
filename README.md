@@ -11,7 +11,7 @@ My Work:
   
 <p align='left'>
   💻 My freaky setup<br/><br/>
-  <img src="https://img.shields.io/badge/kali-linux-%230078D6.svg?&style=for-the-badge&logo=linux&logoColor=000000" />
+  <img src="https://img.shields.io/badge/Arch-Omarchy-%230078D6.svg?&style=for-the-badge&logo=linux&logoColor=000000" />
   <img src="https://img.shields.io/badge/CPU-Intel%20i3%203rd%20Gen-%230071C5.svg?&style=for-the-badge&logo=intel&logoColor=white" />
   <img src="https://img.shields.io/badge/RAM-4GB-%230071C5.svg?&style=for-the-badge&logoColor=white" />
 </p>
