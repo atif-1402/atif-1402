@@ -40,7 +40,7 @@ Terminal-based recorder.
 ### 🐧 Omarchy Themes  
 Custom minimal themes.  
 
-[View](https://github.com/atif-1402?tab=repositories)
+[View]([https://github.com/atif-1402?tab=repositories](https://github.com/atif-1402?tab=repositories&q=theme&type=&language=&sort=))
 
 </td>
 
