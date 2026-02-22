@@ -1,45 +1,74 @@
-<h1 align='left'>
-  Hey there 👋 I'm Atif 🖌️
-</h1> 
-</br>
-
-My Work:  
-- [Omarchy Themes](https://github.com/atif-1402?tab=repositories) <i>(outdated)</i>  
-- [Waybar Collections](https://github.com/atif-1402/minimal-waybar-omarchy)
-- [Dotfiles](https://atif-1402.github.io/dots)  <i>(no more updated)</i>
-- [TUI/CLI Screen Recorder](https://github.com/atif-1402/tui-screen-recorder)
-  
-<p align='left'>
-  💻 My freaky setup<br/><br/>
-  <img src="https://img.shields.io/badge/Arch-Omarchy-%230078D6.svg?&style=for-the-badge&logo=linux&logoColor=000000" />
-  <img src="https://img.shields.io/badge/CPU-Intel%20i3%203rd%20Gen-%230071C5.svg?&style=for-the-badge&logo=intel&logoColor=white" />
-  <img src="https://img.shields.io/badge/RAM-4GB-%230071C5.svg?&style=for-the-badge&logoColor=white" />
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=2c83f8&size=34&center=true&vCenter=true&width=700&pause=1200&speed=35&lines=atif-1402;Creating+themes+%26+minimal+setups;Linux+Enthusiast" />
 </p>
 
-## 🔗 Connect with Me
-<p align="left">
-
-  <a href="https://www.reddit.com/user/Desperate_Lion5740/">
-    <img height="28" src="https://img.shields.io/badge/Reddit-1a1a1a?style=for-the-badge&logo=reddit&logoColor=ff4500&labelColor=1a1a1a" />
-  </a>
-
-  <a href="https://discord.com/users/1432491302875828246">
-    <img height="28" src="https://img.shields.io/badge/Discord-1a1a1a?style=for-the-badge&logo=discord&logoColor=5865F2&labelColor=1a1a1a" />
-  </a>
-
-  <a href="https://buymeacoffee.com/atif.1402?status=1">
-    <img height="28" src="https://img.shields.io/badge/Buy_Me_a_Coffee-1a1a1a?style=for-the-badge&logo=buymeacoffee&logoColor=ffdd00&labelColor=1a1a1a" />
-  </a>
-
-  <a href="https://atif-1402.github.io/">
-    <img height="28" src="https://img.shields.io/badge/Website-1a1a1a?style=for-the-badge&logo=google-chrome&logoColor=4fc3f7&labelColor=1a1a1a" />
-  </a>
-
-
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2c83f8,100:8b5cf6&height=5&section=header&animation=fadeIn" />
 </p>
 
+<p align="center">
+    I enjoy keeping systems minimal, fast, and distraction-free.<br/>
+    Small tools • Clean configs • No unnecessary bloat.
+  </font>
+</p>
 
-## 📊 GitHub Stats
-![Visitors](https://api.visitorbadge.io/api/visitors?path=atif-1402&label=Visitors&countColor=%23263759)
+<div align="center">
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=atif-1402&bg_color=0d1117&color=FFFFFF&line=2c83f8&point=FFFFFF&hide_border=true&area=true&custom_title=Atif's%20Contribution%20Graph)
+<table>
+<tr>
+
+<td width="220">
+
+### 🎨 Waybar Collections  
+Minimal Waybar setups.  
+
+[View](https://github.com/atif-1402/minimal-waybar-omarchy)
+
+</td>
+
+<td width="220">
+
+### 🖥️ TUI Screen Recorder  
+Terminal-based recorder.  
+
+[View](https://github.com/atif-1402/tui-screen-recorder)
+
+</td>
+
+<td width="220">
+
+### 🐧 Omarchy Themes  
+Custom minimal themes.  
+
+[View](https://github.com/atif-1402?tab=repositories)
+
+</td>
+
+<td width="220">
+
+### ⚙️ Dotfiles  
+Arch configuration files.  
+
+[View](https://github.com/atif-1402/anom-dots)
+
+</td>
+
+</tr>
+</table>
+
+</div>
+---
+
+## 💻 My Setup
+
+```bash
+OS      : Arch Linux (Omarchy)
+WM      : Hyprland
+CPU     : Intel i3 3rd Gen
+RAM     : 4GB
+Shell   : zsh
+Editor  : Neovim
+Theme   : Minimal • Dark • Blue accents
+```
+🔗 Connect
+<p align="center"> <a href="https://www.reddit.com/user/Desperate_Lion5740/"> <img height="28" src="https://img.shields.io/badge/Reddit-0d1117?style=for-the-badge&logo=reddit&logoColor=ff4500" /> </a> <a href="https://discord.com/users/1432491302875828246"> <img height="28" src="https://img.shields.io/badge/Discord-0d1117?style=for-the-badge&logo=discord&logoColor=5865F2" /> </a> <a href="https://buymeacoffee.com/atif.1402?status=1"> <img height="28" src="https://img.shields.io/badge/Buy_Me_A_Coffee-0d1117?style=for-the-badge&logo=buymeacoffee&logoColor=ffdd00" /> </a> <a href="https://atif-1402.github.io/"> <img height="28" src="https://img.shields.io/badge/Website-0d1117?style=for-the-badge&logo=google-chrome&logoColor=4fc3f7" /> </a> </p>
