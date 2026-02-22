@@ -66,7 +66,7 @@ WM     : Hyprland
 Shell  : bash
 Editor : VS Code
 Specs  : Intel i3 · 4GB RAM
-Theme  : Minimal · Dark 
+Theme  : Minimal · Dark · Light
 ```
 ---
 <p align="center">
