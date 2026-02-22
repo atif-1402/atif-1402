@@ -40,7 +40,7 @@ Terminal-based recorder.
 ### 🐧 Omarchy Themes  
 Custom minimal themes.  
 
-[View]([https://github.com/atif-1402?tab=repositories](https://github.com/atif-1402?tab=repositories&q=theme&type=&language=&sort=))
+[View](https://github.com/atif-1402?tab=repositories&q=theme&type=&language=&sort=)
 
 </td>
 
@@ -57,18 +57,36 @@ Arch configuration files.
 </table>
 
 </div>
+
 ---
 
-## 💻 My Setup
-
 ```bash
-OS      : Arch Linux (Omarchy)
-WM      : Hyprland
-CPU     : Intel i3 3rd Gen
-RAM     : 4GB
-Shell   : zsh
-Editor  : Neovim
-Theme   : Minimal • Dark • Blue accents
+OS     : Omarchy (Arch Linux)
+WM     : Hyprland
+Shell  : bash
+Editor : VS Code
+Specs  : Intel i3 · 4GB RAM
+Theme  : Minimal · Dark 
 ```
-🔗 Connect
-<p align="center"> <a href="https://www.reddit.com/user/Desperate_Lion5740/"> <img height="28" src="https://img.shields.io/badge/Reddit-0d1117?style=for-the-badge&logo=reddit&logoColor=ff4500" /> </a> <a href="https://discord.com/users/1432491302875828246"> <img height="28" src="https://img.shields.io/badge/Discord-0d1117?style=for-the-badge&logo=discord&logoColor=5865F2" /> </a> <a href="https://buymeacoffee.com/atif.1402?status=1"> <img height="28" src="https://img.shields.io/badge/Buy_Me_A_Coffee-0d1117?style=for-the-badge&logo=buymeacoffee&logoColor=ffdd00" /> </a> <a href="https://atif-1402.github.io/"> <img height="28" src="https://img.shields.io/badge/Website-0d1117?style=for-the-badge&logo=google-chrome&logoColor=4fc3f7" /> </a> </p>
+---
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=atif-1402&bg_color=0d1117&color=c9d1d9&line=2C7BE8&point=2C7BE8&hide_border=true" />
+</p>
+
+---
+
+<p align="center">
+
+<a href="https://atif-1402.github.io/">
+  <img src="https://img.shields.io/badge/Personal Web-0d1117?style=for-the-badge&logo=google-chrome&logoColor=2C7BE8" />
+</a>
+
+<a href="https://www.reddit.com/user/Desperate_Lion5740/">
+  <img src="https://img.shields.io/badge/Reddit-0d1117?style=for-the-badge&logo=reddit&logoColor=FF4500" />
+</a>
+
+<a href="https://discord.com/users/1432491302875828246">
+  <img src="https://img.shields.io/badge/Discord-0d1117?style=for-the-badge&logo=discord&logoColor=5865F2" />
+</a>
+
+</p>
