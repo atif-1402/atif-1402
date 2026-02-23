@@ -22,7 +22,7 @@
 ### 🎨 Waybar Collections  
 Minimal Waybar setups.  
 
-[View](https://github.com/atif-1402/minimal-waybar-omarchy)
+[View](https://github.com/atif-1402/minimal-waybar-themes)
 
 </td>
 
