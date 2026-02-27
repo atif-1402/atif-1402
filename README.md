@@ -61,6 +61,8 @@ Arch configuration files.
 ---
 
 ```bash
+NAME   : Atif
+AGE    : 17
 OS     : Omarchy (Arch Linux)
 WM     : Hyprland
 Shell  : bash
