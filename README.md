@@ -67,7 +67,7 @@ OS     : Omarchy (Arch Linux)
 WM     : Hyprland
 Shell  : bash
 Editor : VS Code
-Specs  : Intel i3 · 4GB RAM
+Specs  : Intel i3 · 8GB RAM
 Theme  : Minimal · Dark · Light
 ```
 ---
