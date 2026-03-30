@@ -91,4 +91,8 @@ Theme  : Minimal · Dark · Light
   <img src="https://img.shields.io/badge/Discord-0d1117?style=for-the-badge&logo=discord&logoColor=5865F2" />
 </a>
 
+<a href="https://ko-fi.com/anom538">
+  <img src="https://img.shields.io/badge/Kofi please-0d1117?style=for-the-badge&logo=kofi&logoColor=5865F2" />
+</a>
+
 </p>
