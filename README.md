@@ -77,22 +77,11 @@ Theme  : Minimal · Dark · Light
 
 ---
 
-<p align="center">
+<div align="center">
 
-<a href="https://atif-1402.github.io/">
-  <img src="https://img.shields.io/badge/Personal Web-0d1117?style=for-the-badge&logo=google-chrome&logoColor=2C7BE8" />
-</a>
+[![Website](https://img.shields.io/badge/Website-Portfolio-2C7BE8?style=for-the-badge&logo=googlechrome&logoColor=white)](https://atif-1402.github.io/)
+[![Reddit](https://img.shields.io/badge/Reddit-Profile-FF4500?style=for-the-badge&logo=reddit&logoColor=white)](https://www.reddit.com/user/Desperate_Lion5740/)
+[![Discord](https://img.shields.io/badge/Discord-Contact-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/1432491302875828246)
+[![Support](https://img.shields.io/badge/Support-Ko--fi-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/anom538)
 
-<a href="https://www.reddit.com/user/Desperate_Lion5740/">
-  <img src="https://img.shields.io/badge/Reddit-0d1117?style=for-the-badge&logo=reddit&logoColor=FF4500" />
-</a>
-
-<a href="https://discord.com/users/1432491302875828246">
-  <img src="https://img.shields.io/badge/Discord-0d1117?style=for-the-badge&logo=discord&logoColor=5865F2" />
-</a>
-
-<a href="https://ko-fi.com/anom538">
-  <img src="https://img.shields.io/badge/Kofi please-0d1117?style=for-the-badge&logo=kofi&logoColor=5865F2" />
-</a>
-
-</p>
+</div>
