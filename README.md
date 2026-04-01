@@ -19,7 +19,7 @@
 
 <td width="220">
 
-### 🎨 Waybar Collections  
+### 🎨 Waybar Themes Collections  
 Minimal Waybar setups.  
 
 [View](https://github.com/atif-1402/minimal-waybar-themes)
@@ -28,7 +28,7 @@ Minimal Waybar setups.
 
 <td width="220">
 
-### 🖥️ TUI Screen Recorder  
+### ⚙️ TUI Screen Recorder  
 Terminal-based recorder.  
 
 [View](https://github.com/atif-1402/tui-screen-recorder)
@@ -37,7 +37,7 @@ Terminal-based recorder.
 
 <td width="220">
 
-### 🐧 Omarchy Themes  
+### 🎨 Omarchy Themes  
 Custom minimal themes.  
 
 [View](https://github.com/atif-1402?tab=repositories&q=theme&type=&language=&sort=)
@@ -46,10 +46,19 @@ Custom minimal themes.
 
 <td width="220">
 
-### ⚙️ Dotfiles  
+### 🐧 Dotfiles  
 Arch configuration files.  
 
 [View](https://github.com/atif-1402/anom-dots)
+
+</td>
+
+<td width="220">
+
+###  ✨ Anomshell 
+Quickshell configuration for Omarchy  
+
+[View](https://github.com/atif-1402/anomshell)
 
 </td>
 
