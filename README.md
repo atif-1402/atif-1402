@@ -53,7 +53,7 @@ I enjoy keeping systems minimal, fast, and distraction-free.<br/>
     </td>
     <td align="center" width="200">
       <b>✨ Anomshell</b><br/>
-      <sub>Quickshell for Omarchy</sub><br/><br/>
+      <sub><strong>(Archived)</strong> Quickshell for Omarchy</sub><br/><br/>
       <a href="https://github.com/atif-1402/anomshell">
         <img src="https://img.shields.io/badge/View-18181a?style=flat-square&logoColor=6a6a6c"/>
       </a>
