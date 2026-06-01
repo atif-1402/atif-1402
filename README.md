@@ -64,19 +64,6 @@ I enjoy keeping systems minimal, fast, and distraction-free.<br/>
 
 ---
 
-```bash
-NAME   : Atif
-AGE    : 17
-OS     : Omarchy (Arch Linux)
-WM     : Hyprland
-Shell  : bash
-Editor : VS Code
-Specs  : Intel i3 · 8GB RAM
-Theme  : Minimal · Dark · Light
-```
-
----
-
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=atif-1402&bg_color=18181a&color=6a6a6c&line=6a6a6c&point=6a6a6c&hide_border=true&radius=6" />
 </div>
