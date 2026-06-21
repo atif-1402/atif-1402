@@ -11,7 +11,7 @@ I enjoy keeping systems minimal, fast, and distraction-free.<br/>
 
 <br/>
 
-[![Website](https://img.shields.io/badge/Portfolio-18181a?style=for-the-badge&logo=googlechrome&logoColor=6a6a6c)](https://atif-1402.github.io/)
+[![Website](https://img.shields.io/badge/Personal_site-18181a?style=for-the-badge&logo=googlechrome&logoColor=6a6a6c)](https://atif-1402.github.io/)
 [![Reddit](https://img.shields.io/badge/Reddit-18181a?style=for-the-badge&logo=reddit&logoColor=6a6a6c)](https://www.reddit.com/user/Desperate_Lion5740/)
 [![Discord](https://img.shields.io/badge/Discord-18181a?style=for-the-badge&logo=discord&logoColor=6a6a6c)](https://discord.com/users/1432491302875828246)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-18181a?style=for-the-badge&logo=kofi&logoColor=6a6a6c)](https://ko-fi.com/anom538)
