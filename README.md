@@ -6,8 +6,8 @@
 
 <br/>
 
-I enjoy keeping systems minimal, fast, and distraction-free.<br/>
-<sub>Small tools &nbsp;•&nbsp; Clean configs &nbsp;•&nbsp; No unnecessary bloat</sub>
+I enjoy keeping systems minimal, fast, and distraction-free.
+<!--<sub>Small tools &nbsp;•&nbsp; Clean configs &nbsp;•&nbsp; No unnecessary bloat</sub>-->
 
 <br/>
 
@@ -18,7 +18,6 @@ I enjoy keeping systems minimal, fast, and distraction-free.<br/>
 
 </div>
 
----
 <!--
 <div align="center">
 <table>
@@ -63,8 +62,8 @@ I enjoy keeping systems minimal, fast, and distraction-free.<br/>
 </div>
 
 ---
--->
+
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=atif-1402&bg_color=18181a&color=6a6a6c&line=6a6a6c&point=6a6a6c&hide_border=true&radius=6" />
-</div>
+</div> -->
