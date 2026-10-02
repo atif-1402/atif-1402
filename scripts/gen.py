@@ -237,3 +237,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
 </svg>'''
 dest = "/tmp/fetch_static.svg" if STATIC else OUT
 open(dest, "w").write(svg); print("wrote", dest)
+
+if not STATIC:
+    rd = os.path.join(os.path.dirname(__file__), "..", "README.md")
+    open(rd, "w").write(f'<div align="center">\n\n<img src="assets/fetch.svg?v={int(now.timestamp())}" alt="atif@anom terminal" width="860" />\n\n</div>\n')
