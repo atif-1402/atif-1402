@@ -52,6 +52,17 @@ try:
             push = (e["repo"]["name"].split("/")[-1], e["created_at"], cm); break
 except Exception:
     pass
+repos = []
+try:
+    if MOCK: raise RuntimeError
+    rl = json.loads(get(f"https://api.github.com/users/{USER}/repos?per_page=100&type=owner", api=True))
+    repos = [(r["name"], r["stargazers_count"], r.get("description") or "", r.get("archived", False))
+             for r in rl if not r.get("fork")]
+except Exception:
+    pass
+if MOCK: repos = [("minimal-waybar-themes",215,"Minimal Waybar Themes for omarchy.org",False),("anomshell",97,"Quickshell configuration for Omarchy OS",True),
+    ("omarchy-rainynight-theme",41,"Rainy night theme for Omarchy",False),("dotfiles",37,"My Dotfiles",False),("omarchy-aureth-theme",26,"Aureth theme for Omarchy",False)]
+repos.sort(key=lambda r: -r[1]); repos = repos[:5]
 if MOCK: push = ("omarchy-rainynight-theme", "2026-10-02T04:10:00Z", "fix waybar module spacing")
 
 # ---------- layout ----------
@@ -161,6 +172,22 @@ if push:
 else:
     kv(row, t, "last repo", "waiting for first sync", MID); row += 1; t += 0.12
 row += 1
+
+# top repos (by stars, refreshed every run)
+if repos:
+    plain(row, t, "top repos   sorted by stars", AMB); row += 1; t += 0.1
+    top = max(r[1] for r in repos) or 1
+    for name, st, desc, arch in repos:
+        y = Y0 + row*LH
+        bw = max(3, round(st/top*60))
+        d = esc(desc if len(desc) <= 48 else desc[:47] + "…")
+        nm = esc(name + ("  [archived]" if arch else ""))
+        inner = (f'<text x="{X0}" y="{y}" fill="{DIM if arch else HI}">{nm}</text>'
+                 f'<text x="{X0+37*CW}" y="{y}" fill="{AMB}" text-anchor="end">★ {st}</text>'
+                 f'<rect x="{X0+38*CW}" y="{y-9}" width="60" height="8" fill="{HEAT[0]}"/><rect x="{X0+38*CW}" y="{y-9}" width="{bw}" height="8" fill="{HEAT[3]}"/>'
+                 f'<text x="{X0+46*CW}" y="{y}" fill="{DIM}">{d}</text>')
+        out.append(grp(t, inner)); row += 1; t += 0.1
+    row += 1
 
 # final prompt
 t = typed(row, t, "", 0.1)
