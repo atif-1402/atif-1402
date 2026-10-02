@@ -8,27 +8,46 @@ OUT = os.path.join(os.path.dirname(__file__), "..", "assets", "fetch.svg")
 STATIC = "--static" in sys.argv          # preview mode: everything visible, no filters
 MOCK = os.environ.get("MOCK_EVENTS")      # layout testing only
 
-def get(url, api=False):
-    h = {"User-Agent": "anomfetch"}
+def get(url, api=False, data=None, tries=6):
+    h = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36"}
     tok = os.environ.get("GITHUB_TOKEN")
     if api and tok: h["Authorization"] = f"Bearer {tok}"
-    for i in range(4):
+    if data: h["Content-Type"] = "application/json"
+    for i in range(tries):
         try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers=h), timeout=25) as r:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=h, data=data), timeout=40) as r:
                 return r.read().decode()
         except Exception:
-            if i == 3: raise
-            time.sleep(2 + i*2)
+            if i == tries-1: raise
+            time.sleep(3 + i*4)
+
+def days_from_html():
+    html = get(f"https://github.com/users/{USER}/contributions")
+    tips = {m.group(1): m.group(2) for m in re.finditer(r'for="(contribution-day-component-\d+-\d+)"[^>]*>\s*([^<]*)', html)}
+    out_ = []
+    for m in re.finditer(r'<td[^>]*data-date="([\d-]+)"[^>]*id="(contribution-day-component-\d+-\d+)"[^>]*data-level="(\d)"', html):
+        n = re.match(r"(\d+) contribution", tips.get(m.group(2), ""))
+        out_.append((dt.date.fromisoformat(m.group(1)), int(m.group(3)), int(n.group(1)) if n else 0))
+    return out_
+
+def days_from_graphql():
+    q = 'query($u:String!){user(login:$u){contributionsCollection{contributionCalendar{weeks{contributionDays{date contributionCount contributionLevel}}}}}}'
+    r = json.loads(get("https://api.github.com/graphql", api=True, data=json.dumps({"query": q, "variables": {"u": USER}}).encode()))
+    lv = {"NONE":0,"FIRST_QUARTER":1,"SECOND_QUARTER":2,"THIRD_QUARTER":3,"FOURTH_QUARTER":4}
+    wk = r["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
+    return [(dt.date.fromisoformat(d["date"]), lv[d["contributionLevel"]], d["contributionCount"]) for w in wk for d in w["contributionDays"]]
 
 # ---------- live data ----------
-html = get(f"https://github.com/users/{USER}/contributions")
-tips = {m.group(1): m.group(2) for m in re.finditer(r'for="(contribution-day-component-\d+-\d+)"[^>]*>\s*([^<]*)', html)}
 days = []
-for m in re.finditer(r'<td[^>]*data-date="([\d-]+)"[^>]*id="(contribution-day-component-\d+-\d+)"[^>]*data-level="(\d)"', html):
-    d, cid, lvl = m.group(1), m.group(2), int(m.group(3))
-    t = tips.get(cid, "")
-    n = re.match(r"(\d+) contribution", t)
-    days.append((dt.date.fromisoformat(d), lvl, int(n.group(1)) if n else 0))
+for src in (days_from_html, days_from_graphql):
+    try:
+        days = src()
+        if days: break
+    except Exception as e:
+        print(f"{src.__name__} failed: {e}", file=sys.stderr)
+if not days:
+    print("no contribution data available, keeping the existing image", file=sys.stderr)
+    sys.exit(0)
 days.sort()
 total = sum(c for _,_,c in days)
 longest = cur = 0
