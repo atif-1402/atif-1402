@@ -119,7 +119,7 @@ plain(row, t, f"Last login: {now:%a %b %-d %H:%M} UTC on tty1", DIM); row += 2
 t = typed(row, 0.6, "fetch"); row += 1; t += 0.3
 plain(row, t, "atif@anom", HI); row += 1
 plain(row, t, "─"*40, DIM); row += 1; t += 0.1
-for k, v in [("os","Arch Linux (Omarchy)"),("wm","Hyprland"),("shell","bash"),("editor","nvim"),
+for k, v in [("os","Omarchy"),("wm","Hyprland"),("shell","bash"),("editor","nvim"),
              ("doing","maths · linux filesystem internals · C for kernel dev"),
              ("site","atif-1402.github.io"),("kofi","ko-fi.com/anom538")]:
     kv(row, t, k, v, HI if k in ("site","kofi") else AMB); row += 1; t += 0.1
