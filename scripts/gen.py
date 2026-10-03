@@ -66,7 +66,7 @@ try:
     if MOCK: raise RuntimeError
     ev = json.loads(get(f"https://api.github.com/users/{USER}/events/public", api=True))
     for e in ev:
-        if e["type"] == "PushEvent":
+        if e["type"] == "PushEvent" and not e["repo"]["name"].endswith("/" + USER):
             cm = (e["payload"].get("commits") or [{}])[-1].get("message", "").split("\n")[0]
             push = (e["repo"]["name"].split("/")[-1], e["created_at"], cm); break
 except Exception:
