@@ -1,5 +1,5 @@
 <div align="center">
 
-<img src="assets/fetch.svg?v=1795257389" alt="atif@anom terminal" width="860" />
+<img src="assets/fetch.svg?v=1795286371" alt="atif@anom terminal" width="860" />
 
 </div>
